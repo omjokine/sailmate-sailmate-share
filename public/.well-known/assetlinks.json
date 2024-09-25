@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "fi.nautics.hybridsailmate",
+      "sha256_cert_fingerprints":
+        ["19:FC:9F:A1:F5:98:3D:9D:B1:98:E7:70:04:D6:B9:D9:C4:69:1A:1C:8E:41:60:48:CF:73:F8:9A:3A:FD:45:3A"]
+    }
+  }
+]

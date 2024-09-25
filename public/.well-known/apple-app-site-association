@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "U3K32UZP68.fi.nautics.hybridsailmate",
+                "paths": ["*", "/*"]
+            }
+        ]
+    }
+}
