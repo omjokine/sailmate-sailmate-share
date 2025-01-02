@@ -1,13 +1,13 @@
-import '../styles/globals.css';
-import { Footer } from '../components/footer';
-import { Header } from '../components/header';
+import '../styles/globals.css'
+import { Footer } from '../components/footer'
+import { Header } from '../components/header'
 
 export const metadata = {
   title: {
     template: '%s | Nautics Sailmate',
     default: 'Nautics Sailmate'
   }
-};
+}
 
 export default function RootLayout({ children }) {
   return (
@@ -25,5 +25,5 @@ export default function RootLayout({ children }) {
         </div>
       </body>
     </html>
-  );
+  )
 }
