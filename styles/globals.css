@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato|lato light');
+@import url('https://fonts.googleapis.com/css2?family=lato_light:wght@400;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -33,4 +34,30 @@ a {
 
 .btn:disabled {
   @apply text-neutral-400 bg-neutral-700;
+}
+
+body {
+  background-color: rgb(12, 59, 95);
+  font-family: lato-light, lato, sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 32px;
+  letter-spacing: 0.05em;
+  font-family: lato-light, lato, sans-serif;
+  line-height: 1.2em;
+}
+
+.headerText {
+  background-color: white;
+  margin-bottom: -2px;
+  padding-right: 10px;
+  padding-top: 10px;
+  width: 100%;
+  text-align: right;
+}
+
+img {
+  display: inline;
 }
