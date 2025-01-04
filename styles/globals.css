@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato|lato light');
-@import url('https://fonts.googleapis.com/css2?family=lato_light:wght@400;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -36,17 +35,38 @@ a {
   @apply text-neutral-400 bg-neutral-700;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
-  background-color: rgb(12, 59, 95);
+  /* background-color: rgb(12, 59, 95); */
+  background-color: #90ccca;
   font-family: lato-light, lato, sans-serif;
-  color: white;
+  color: rgba(7,33,54,1);
+  background-image: url('/images/background_blur2.jpg');
+/*  background-image: url('https://static.wixstatic.com/media/0db8a3_0703087624fb4f019f1109c9e4ab471f~mv2.jpg/v1/fill/w_2048,h_1082,al_c/0db8a3_0703087624fb4f019f1109c9e4ab471f~mv2.jpg');*/
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   font-size: 32px;
-  letter-spacing: 0.05em;
+  /*letter-spacing: 0.05em;*/
   font-family: lato-light, lato, sans-serif;
-  line-height: 1.2em;
+  /*line-height: 1.2em;*/
+  /*color: #0C3B5F;*/
+  color: rgba(7,33,54,1);
+}
+
+h2 {
+  font-size: 20px;
+  /*letter-spacing: 0.05em;*/
+  font-family: lato-light, lato, sans-serif;
+  /*line-height: 1.2em;*/
+  /*color: #0C3B5F;*/
+  color: rgba(7,33,54,1);
+  padding-top: 20px;
 }
 
 .headerText {
@@ -60,4 +80,22 @@ h1 {
 
 img {
   display: inline;
+}
+
+footer {
+  padding: 24px;
+  /* background-color: #90ccca; */
+  background-color: rgb(12, 59, 95);
+  width: 100%;
+  color: white;
+  flex-shrink: 0;
+}
+
+.main {
+  flex: 1 0 auto;
+  padding: 24px;
+}
+
+.paragraph {
+  margin-top: 10px;
 }

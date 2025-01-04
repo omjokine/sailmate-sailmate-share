@@ -3,7 +3,7 @@ import Link from 'next/link'
 export const Header = () => {
   return (
     <header>
-      <div class="headerText">
+      <div className="headerText">
         <Link passHref href={'https://www.sailmate.com'}>
           <img
             alt="Sailmate logo"
