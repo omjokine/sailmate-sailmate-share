@@ -1,20 +1,21 @@
-const colors = require('tailwindcss/colors');
-const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       backgroundImage: {
-        'grid-pattern': "linear-gradient(to bottom, theme('colors.neutral.950 / 0%'), theme('colors.neutral.950 / 100%'))"
+        'grid-pattern':
+          "linear-gradient(to bottom, theme('colors.neutral.950 / 0%'), theme('colors.neutral.950 / 100%'))",
       },
       colors: {
-        neutral: colors.neutral
+        neutral: colors.neutral,
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans]
-      }
-    }
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   daisyui: {
     themes: [
@@ -26,9 +27,9 @@ module.exports = {
           secondary: '#016968',
           info: '#2bdcd2',
           'info-content': '#171717',
-        }
-      }
-    ]
+        },
+      },
+    ],
   },
-  plugins: [require('daisyui')]
+  plugins: [require('daisyui')],
 }

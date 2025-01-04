@@ -5,13 +5,13 @@ import { Header } from '../components/header'
 export const metadata = {
   title: {
     template: '%s | Nautics Sailmate',
-    default: 'Nautics Sailmate'
-  }
+    default: 'Nautics Sailmate',
+  },
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="lofi">
+    <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
