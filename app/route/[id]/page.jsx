@@ -4,10 +4,7 @@ import Link from 'next/link'
 const Page = () => {
   return (
     <div>
-      <h1>Sinulle on jaettu veneilyreitti Sailmatessa</h1>
-      <div className="paragraph">
-        Olet tällä sivulla, koska sinulle on jaettu veneilyreitti sovelluksessa Nautics Sailmate.
-      </div>
+      <h1>Sinulle on jaettu veneilyreitti Sailmate-sovelluksessa</h1>
       <div className="paragraph">
         Eikö sinulla ole asennettuna Sailmate-sovellusta? Pääset katsomaan sinulle jaetun reitin lataamalla sovelluksen
         ja kirjautumalla sisään Sailmate-tilillesi. Sailmate-sovelluksen lataaminen ja jaetun reitin katsominen on
