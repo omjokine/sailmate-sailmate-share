@@ -6,11 +6,15 @@ const Page = () => {
     <div>
       <h1>Sinulle on jaettu veneilyreitti Sailmate-sovelluksessa</h1>
       <div className="paragraph">
-        Eikö sinulla ole asennettuna Sailmate-sovellusta? Pääset katsomaan sinulle jaetun reitin lataamalla sovelluksen
-        ja kirjautumalla sisään Sailmate-tilillesi. Sailmate-sovelluksen lataaminen ja jaetun reitin katsominen on
-        ilmaista.
-        <h2>Lataa sovellus</h2>
+        Eikö sinulla ole Nautics Sailmate-sovellusta? Pääset katsomaan jaetun reitin lataamalla sovelluksen ja
+        kirjautumalla Sailmate-tilillesi. Jos sinulla ei ole Sailmate-tiliä, teemme sinulle sellaisen.
       </div>
+      <div className="paragraph">
+        Lue lisää Sailmaten käytöstä:
+        <br />
+        <Link href={'https://www.sailmate.com/kayttoohjeet'}>www.sailmate.com/kayttoohjeet</Link>
+      </div>
+      <h2>Lataa sovellus</h2>
       <Link passHref href={'https://play.google.com/store/apps/details?id=fi.nautics.hybridsailmate'}>
         <Image alt="Google Play icon" src="/images/en_badge_web_generic.png" width="200" height="200" />
       </Link>
@@ -22,15 +26,6 @@ const Page = () => {
           height="160"
         />
       </Link>
-      <h2>Eikö sinulla ole Sailmate-tiliä, mutta haluat silti nähdä sinulle jaetun reitin?</h2>
-      <div className="paragraph">
-        Pääset katsomaan sinulle jaetun reitin lataamalla sovelluksen ja luomalla Sailmate-tilin. Tili luodaan
-        sovelluksen ensimmäisellä käynnistyskerralla. Tilin luonti on täysin ilmaista ja kestää vain minuutin. Kun olet
-        ladannut Sailmaten ja luonut Sailmate -tilin, paina uudelleen sinulle jaettua reittilinkkiä, niin reitti aukeaa
-        Sailmate-sovelluksessa. Lue lisää Sailmaten käytöstä:
-        <br />
-        <Link href={'https://www.sailmate.com/kayttoohjeet'}>sailmate.com/kayttoohjeet</Link>
-      </div>
     </div>
   )
 }
